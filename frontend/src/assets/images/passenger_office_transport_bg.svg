@@ -1,0 +1,62 @@
+<svg width="1920" height="1080" viewBox="0 0 1920 1080" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1920" y2="1080" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0A1C35"/>
+      <stop offset="1" stop-color="#17345F"/>
+    </linearGradient>
+    <linearGradient id="road" x1="960" y1="1080" x2="960" y2="620" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0F1A2F"/>
+      <stop offset="1" stop-color="#1F2D4A"/>
+    </linearGradient>
+    <linearGradient id="glass" x1="360" y1="280" x2="1530" y2="700" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F5FBFF" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#C4D5E5" stop-opacity="0.65"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(340 120) rotate(21.8) scale(650 420)">
+      <stop stop-color="#F47C20" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#F47C20" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1920" height="1080" fill="url(#bg)"/>
+  <rect width="1920" height="1080" fill="url(#glow)"/>
+
+  <path d="M0 1080H1920V760C1740 700 1540 670 1330 670C1080 670 860 720 660 780C470 835 255 880 0 900V1080Z" fill="url(#road)"/>
+  <path d="M905 710L960 900L1015 710H905Z" fill="#DDE8F2" fill-opacity="0.75"/>
+
+  <ellipse cx="870" cy="540" rx="190" ry="75" fill="#0F172A" fill-opacity="0.38"/>
+  <ellipse cx="1220" cy="560" rx="220" ry="80" fill="#0F172A" fill-opacity="0.3"/>
+
+  <path d="M360 730C420 535 575 390 770 365H1160C1320 385 1450 490 1530 700L1420 760H420L360 730Z" fill="#273953"/>
+  <path d="M420 690C500 515 630 420 790 400H1140C1290 420 1410 510 1480 665L1360 700H500L420 690Z" fill="url(#glass)"/>
+
+  <rect x="420" y="760" width="1000" height="26" rx="13" fill="#A9BACB" fill-opacity="0.55"/>
+
+  <rect x="1015" y="520" width="170" height="200" rx="24" fill="#16263D"/>
+  <rect x="790" y="525" width="170" height="195" rx="24" fill="#1C2D49"/>
+  <rect x="560" y="530" width="170" height="195" rx="24" fill="#1C2D49"/>
+
+  <circle cx="1090" cy="455" r="40" fill="#F3D0B6"/>
+  <rect x="1048" y="490" width="84" height="120" rx="18" fill="#1F334F"/>
+  <rect x="1058" y="560" width="64" height="70" rx="10" fill="#172A43"/>
+
+  <circle cx="855" cy="455" r="38" fill="#EBC4A7"/>
+  <rect x="815" y="490" width="80" height="118" rx="18" fill="#314E74"/>
+
+  <circle cx="625" cy="462" r="37" fill="#E3B998"/>
+  <rect x="585" y="496" width="78" height="114" rx="17" fill="#3D5A83"/>
+
+  <path d="M1050 450C1060 418 1086 396 1120 392C1140 390 1160 398 1170 412C1165 383 1140 362 1108 362C1072 362 1044 387 1041 421L1050 450Z" fill="#111D30"/>
+  <path d="M813 450C822 420 847 398 878 394C900 392 919 402 928 417C926 386 902 365 872 365C836 365 808 391 805 425L813 450Z" fill="#1A2740"/>
+  <path d="M584 458C592 430 616 410 646 406C666 404 683 412 691 425C689 396 666 377 637 377C604 377 578 401 575 432L584 458Z" fill="#202D45"/>
+
+  <rect x="1105" y="560" width="90" height="8" rx="4" fill="#9FB3C8"/>
+  <rect x="878" y="560" width="88" height="8" rx="4" fill="#AFC2D6"/>
+  <rect x="652" y="565" width="82" height="8" rx="4" fill="#AFC2D6"/>
+
+  <circle cx="1520" cy="220" r="56" fill="#FFFFFF" fill-opacity="0.08"/>
+  <circle cx="1430" cy="150" r="24" fill="#FFFFFF" fill-opacity="0.07"/>
+  <circle cx="320" cy="180" r="28" fill="#FFFFFF" fill-opacity="0.06"/>
+
+  <text x="420" y="970" fill="#DCE8F5" fill-opacity="0.65" font-family="Segoe UI, Arial, sans-serif" font-size="46" letter-spacing="3">PASSENGER OFFICE TRANSPORT</text>
+</svg>

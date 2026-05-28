@@ -1,0 +1,58 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment variables
+.env
+.env.*
+*.env
+
+# Build outputs
+dist/
+backend/dist/
+frontend/dist/
+backend/frontend/
+build/
+out/
+.next/
+.nuxt/
+.vuepress/dist
+.serverless/
+.fusebox/
+.dynamodb/
+coverage/
+.nyc_output/
+*.tsbuildinfo
+
+# Temporary files
+tmp/
+temp/
+
+# Runtime-generated log files
+backend/error_log.txt
+backend/error_logs.txt
+
+# Editors & IDEs
+.idea/
+.vSCode/
+.vs/
+*.swp
+*.swo
+*.swn
+*.suo
+.project
+.classpath
+.settings/
+.vite/
+.vite/deps
+
+
+# Vercel
+.vercel

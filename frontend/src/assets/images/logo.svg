@@ -1,0 +1,16 @@
+<svg width="180" height="60" viewBox="0 0 180 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Gear/Cog Background -->
+  <g opacity="0.3">
+    <circle cx="25" cy="30" r="20" fill="#F4A460" opacity="0.2"/>
+    <path d="M25 15 L27 20 L32 18 L30 23 L35 25 L30 27 L32 32 L27 30 L25 35 L23 30 L18 32 L20 27 L15 25 L20 23 L18 18 L23 20 Z" fill="#F4A460"/>
+  </g>
+  
+  <!-- Hayleys Text -->
+  <text x="50" y="35" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#2D5F4C">Hayleys</text>
+  
+  <!-- Fentons Text -->
+  <text x="50" y="50" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#FF5722">Fentons</text>
+  
+  <!-- Since 1919 -->
+  <text x="50" y="58" font-family="Arial, sans-serif" font-size="8" fill="#666">Since 1919</text>
+</svg>
